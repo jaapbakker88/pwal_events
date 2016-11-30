@@ -4473,6 +4473,11 @@ body {
 header {
   min-height: 50vh;
   color: #efefef; }
+  header .navbar {
+    border: 0;
+    background: transparent; }
+  header img {
+    margin: 2em 0 0; }
   header .intro, header .buttons {
     margin: 4em auto;
     width: 80%; }
