@@ -14,6 +14,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/gotham-bold-webfont.eot');
+    src: url('../fonts/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-bold-webfont.woff2') format('woff2'),
+         url('../fonts/gotham-bold-webfont.woff') format('woff'),
+         url('../fonts/gotham-bold-webfont.svg#gotham_boldregular') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
 * {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -22,12 +34,12 @@
 
 $dark-grey: #232323;
 $mid-grey: #efefef;
-$light-grey: #efefef;
+$light-grey: #fffff0;
 
 
 body {
 	font-family: 'Gotham', sans-serif;
-	background-color: #232323;
+	background-color: $light-grey;
 	height: 100%;
 	width: 100%;
 	}
@@ -36,17 +48,43 @@ header {
 	.navbar {
 		border: 0;
 		background: transparent;
+		.navbar-brand img {
+			height: 40px;
+			margin-top: 0.25em;
+		}
 	}
-	img {
-		margin: 2em 0 0;
-	}
+
 	min-height: 50vh;
-	color: $light-grey;
+	color: $dark-grey;
 	.intro, .buttons {margin: 2em auto; width: 80%;}
+	.buttons {
+		.badge {
+			background: #30baed;
+			text-decoration: none;
+		}
+	}
+	.press {
+		.producthunt2 {display: none;}
+		.item {
+			padding: 3em;
+
+			img {
+				transition: all .2s ease-in-out;
+				opacity: 0.25;
+    			filter: alpha(opacity=25); /* For IE8 and earlier */
+    			&:hover {
+    				opacity: 0.85;
+    				filter: alpha(opacity=85); /* For IE8 and earlier */
+    			}
+			}
+
+		}
+	}
 }
 
 #one{
 	background: #fff;
+
 }
 
 #two {
