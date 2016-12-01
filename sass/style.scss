@@ -34,7 +34,7 @@
 
 $dark-grey: #232323;
 $mid-grey: #efefef;
-$light-grey: #fffff0;
+$light-grey: #ffffff;
 
 
 body {
@@ -181,6 +181,15 @@ footer {
 }
 
 #powered-by {display: none;}
+
+@media (max-width: 420px) {
+	.press {
+		.item {
+			padding: 0;
+		}
+	}  
+    
+}
 
 @media (max-width: 780px) {
 	#two {

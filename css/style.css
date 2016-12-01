@@ -4472,7 +4472,7 @@ button.close {
 
 body {
   font-family: 'Gotham', sans-serif;
-  background-color: #fffff0;
+  background-color: #ffffff;
   height: 100%;
   width: 100%; }
 
@@ -4527,7 +4527,7 @@ header {
     /* IE6-9 */ }
 
 #three {
-  color: #fffff0;
+  color: #ffffff;
   background-color: #232323;
   padding: 4em; }
   #three .card {
@@ -4552,7 +4552,7 @@ header {
           position: absolute;
           bottom: 0;
           text-align: center;
-          color: #fffff0; }
+          color: #ffffff; }
     #three .card .front {
       border-radius: 5px; }
     #three .card .back {
@@ -4572,7 +4572,7 @@ header {
 footer {
   background-color: #232323;
   padding: 6em 0 2em;
-  color: #fffff0;
+  color: #ffffff;
   font-size: 0.8em; }
   footer ul {
     color: #efefef;
@@ -4591,6 +4591,9 @@ footer {
 #powered-by {
   display: none; }
 
+@media (max-width: 420px) {
+  .press .item {
+    padding: 0; } }
 @media (max-width: 780px) {
   #two .container-fluid {
     height: 50vh; } }
