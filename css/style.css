@@ -4537,6 +4537,8 @@ header {
       border-radius: 5px; }
     #three .card .back {
       border-radius: 5px; }
+  #three h2 {
+    margin: 0em; }
 
 .hover-zoom {
   transition: all .3s ease-in-out;
