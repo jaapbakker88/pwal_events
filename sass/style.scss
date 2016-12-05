@@ -114,25 +114,19 @@ header {
 	.card {
 		margin: 10px;
 		min-height: 250px;
-<<<<<<< HEAD
-		.front, .back {
-=======
 		.front {
+		min-height:250px;
 		border-radius: 5px;
 		}
 		.back {
->>>>>>> e9758d104f6802f045e9ab360274812b023ae36d
 		border-radius: 5px;
 		min-height:250px;
 		}
-	}
 
-<<<<<<< HEAD
-	h2 {
-		margin: 2em;
+		h2 {
+			margin: 2em;
+		}
 	}
-=======
->>>>>>> e9758d104f6802f045e9ab360274812b023ae36d
 }
 
 .hover-zoom {
@@ -186,6 +180,4 @@ footer {
 			height: 50vh;
 		}
 	}
-    
-    
 }
