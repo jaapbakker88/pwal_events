@@ -114,15 +114,25 @@ header {
 	.card {
 		margin: 10px;
 		min-height: 250px;
+<<<<<<< HEAD
 		.front, .back {
+=======
+		.front {
+		border-radius: 5px;
+		}
+		.back {
+>>>>>>> e9758d104f6802f045e9ab360274812b023ae36d
 		border-radius: 5px;
 		min-height:250px;
 		}
 	}
 
+<<<<<<< HEAD
 	h2 {
 		margin: 2em;
 	}
+=======
+>>>>>>> e9758d104f6802f045e9ab360274812b023ae36d
 }
 
 .hover-zoom {
@@ -160,7 +170,6 @@ footer {
 	}
 }
 
-#powered-by {display: none;}
 
 @media (max-width: 420px) {
 	.press {
