@@ -4485,6 +4485,12 @@ header {
     header .navbar .navbar-brand img {
       height: 40px;
       margin-top: 0.25em; }
+  header .navbar-collapse {
+    border: 0; }
+  header .navbar-inverse .navbar-toggle {
+    margin-top: 15px; }
+  header .navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #4b4b4b; }
   header .intro, header .buttons {
     margin: 2em auto;
     width: 80%; }
@@ -4531,14 +4537,11 @@ header {
   background-color: #232323;
   padding: 4em; }
   #three .card {
-    margin: 10px;
-    min-height: 250px; }
-    #three .card .front {
+    min-height: 250px;
+    margin-top: 20px; }
+    #three .card .front, #three .card .back {
       min-height: 250px;
       border-radius: 5px; }
-    #three .card .back {
-      border-radius: 5px;
-      min-height: 250px; }
     #three .card h2 {
       margin: 2em; }
 
@@ -4572,9 +4575,18 @@ footer {
 
 @media (max-width: 420px) {
   .press .item {
-    padding: 0; } }
+    padding: 0; }
+
+  #three {
+    padding: 0; }
+    #three .card {
+      min-height: 150px;
+      margin-top: 20px; }
+      #three .card .front, #three .card .back {
+        min-height: 150px;
+        border-radius: 5px; } }
 @media (max-width: 780px) {
   #two .container-fluid {
-    height: 50vh; } }
+    height: 40vh; } }
 
 /*# sourceMappingURL=style.css.map */

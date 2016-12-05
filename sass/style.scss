@@ -53,6 +53,16 @@ header {
 			margin-top: 0.25em;
 		}
 	}
+	.navbar-collapse {
+    	border: 0;
+	}
+	.navbar-inverse .navbar-toggle {
+		margin-top: 15px;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar {
+	    background-color: #4b4b4b;
+	}
+
 
 	min-height: 50vh;
 	color: $dark-grey;
@@ -112,15 +122,11 @@ header {
 	padding: 4em;
 
 	.card {
-		margin: 10px;
 		min-height: 250px;
-		.front {
-		min-height:250px;
+		margin-top: 20px;
+		.front, .back {
+		min-height: 250px;
 		border-radius: 5px;
-		}
-		.back {
-		border-radius: 5px;
-		min-height:250px;
 		}
 
 		h2 {
@@ -171,13 +177,26 @@ footer {
 			padding: 0;
 		}
 	}  
-    
+
+	#three {
+		padding: 0;
+			.card {
+			min-height: 150px;
+			margin-top: 20px;
+			.front, .back {
+			min-height: 150px;
+			border-radius: 5px;
+			}
+		}
+	}
+	 
 }
 
 @media (max-width: 780px) {
 	#two {
 		.container-fluid {
-			height: 50vh;
+			height: 40vh;
 		}
 	}
+	
 }
