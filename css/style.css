@@ -4521,7 +4521,10 @@ header {
   #one .buttons {
     padding: 2em 1em;
     border: 1px solid #f2f2ff;
-    border-radius: 5px; }
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(75, 75, 75, 0.25);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(75, 75, 75, 0.25);
+    box-shadow: 1px 1px 3px 0px rgba(75, 75, 75, 0.25); }
     #one .buttons .badge {
       background: #30baed;
       text-decoration: none;
