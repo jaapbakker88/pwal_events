@@ -4513,6 +4513,24 @@ header {
 
 #one {
   background: #fff; }
+  #one .intro, #one .buttons {
+    margin: 3em auto; }
+  #one .intro {
+    padding-top: 2em;
+    text-align: left; }
+  #one .buttons {
+    padding: 2em 1em;
+    border: 1px solid #f2f2ff;
+    border-radius: 5px; }
+    #one .buttons .badge {
+      background: #30baed;
+      text-decoration: none;
+      min-width: 150px; }
+  #one .kitty {
+    background-image: url("../images/kitty.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 65%; }
 
 #two .container-fluid {
   padding: 0;

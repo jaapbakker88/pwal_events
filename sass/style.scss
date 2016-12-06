@@ -94,6 +94,27 @@ header {
 
 #one{
 	background: #fff;
+	.intro, .buttons {margin: 3em auto;}
+	.intro {
+		padding-top: 2em;
+		text-align: left;
+	}
+	.buttons { 
+		padding: 2em 1em;
+		border: 1px solid #f2f2ff;
+		border-radius: 5px;
+		.badge {
+			background: #30baed;
+			text-decoration: none;
+			min-width: 150px;
+		}
+	}
+	.kitty {
+		background-image: url('../images/kitty.png');
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		background-size: 65%;
+	} 
 
 }
 
