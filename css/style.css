@@ -1148,7 +1148,7 @@ hr {
 [role="button"] {
   cursor: pointer; }
 
-h1, h2, h3, h4, h5, h6,
+h1, h2, h3, h4, h1, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
@@ -1157,8 +1157,9 @@ h1, h2, h3, h4, h5, h6,
   h1 small,
   h1 .small, h2 small,
   h2 .small, h3 small,
-  h3 .small, h4 small,
-  h4 .small, h5 small,
+  h3 .small, h4 small, h1 small,
+  h4 .small,
+  h1 .small, h5 small,
   h5 .small, h6 small,
   h6 .small,
   .h1 small,
@@ -1188,13 +1189,14 @@ h3, .h3 {
   .h3 .small {
     font-size: 65%; }
 
-h4, .h4,
+h4, h1, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 16px;
   margin-bottom: 16px; }
-  h4 small,
-  h4 .small, .h4 small,
+  h4 small, h1 small,
+  h4 .small,
+  h1 .small, .h4 small,
   .h4 .small,
   h5 small,
   h5 .small, .h5 small,
@@ -1213,7 +1215,7 @@ h2, .h2 {
 h3, .h3 {
   font-size: 31px; }
 
-h4, .h4 {
+h4, h1, .h4 {
   font-size: 23px; }
 
 h5, .h5 {
@@ -4491,6 +4493,10 @@ header {
     margin-top: 15px; }
   header .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #4b4b4b; }
+  header .navbar-inverse .navbar-nav li a:hover {
+    color: #30baed; }
+  header .navbar-inverse .navbar-nav li a:focus {
+    color: #30baed; }
   header .intro, header .buttons {
     margin: 2em auto;
     width: 80%; }
@@ -4514,7 +4520,7 @@ header {
 #one {
   background: #fff; }
   #one .intro, #one .buttons {
-    margin: 3em auto; }
+    margin: 3em auto 1em; }
   #one .intro {
     padding-top: 2em;
     text-align: left; }
@@ -4538,7 +4544,7 @@ header {
 #two .container-fluid {
   padding: 0;
   position: relative;
-  background-image: url("../images/eyecandy.jpg");
+  background-image: url("../images/eyecandy2.jpg");
   height: 100vh; }
   #two .container-fluid .overlay {
     width: 100%;

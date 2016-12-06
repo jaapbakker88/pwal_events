@@ -44,6 +44,10 @@ body {
 	width: 100%;
 	}
 
+	h1 {
+		@extend h4;
+	}
+
 header {
 	.navbar {
 		border: 0;
@@ -61,6 +65,15 @@ header {
 	}
 	.navbar-inverse .navbar-toggle .icon-bar {
 	    background-color: #4b4b4b;
+	}
+
+	.navbar-inverse .navbar-nav li a {
+		&:hover {
+			color: #30baed;
+		}
+		&:focus {
+			color: #30baed;
+		}
 	}
 
 
@@ -94,7 +107,7 @@ header {
 
 #one{
 	background: #fff;
-	.intro, .buttons {margin: 3em auto;}
+	.intro, .buttons {margin: 3em auto 1em;}
 	.intro {
 		padding-top: 2em;
 		text-align: left;
@@ -125,7 +138,7 @@ header {
 	.container-fluid {
 		padding: 0;
 		position: relative;
-		background-image: url('../images/eyecandy.jpg');
+		background-image: url('../images/eyecandy2.jpg');
 		height: 100vh;
 		.overlay {
 			width: 100%;
