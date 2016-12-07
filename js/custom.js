@@ -1,10 +1,10 @@
 
 // FLIP
 
-$(".card").flip({
-	axis: 'x',
-	trigger: 'hover'
-});
+// $(".card").flip({
+// 	axis: 'x',
+// 	trigger: 'hover'
+// });
 
 // Producthunt
 
