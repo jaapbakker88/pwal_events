@@ -4566,15 +4566,15 @@ header {
 #three {
   color: #ffffff;
   background-color: #232323;
-  padding: 4em; }
+  padding: 2em; }
+  #three h2 {
+    margin: 2em; }
   #three .card {
     min-height: 250px;
     margin-top: 20px; }
     #three .card .front, #three .card .back {
       min-height: 250px;
       border-radius: 5px; }
-    #three .card h2 {
-      margin: 2em; }
 
 .hover-zoom {
   transition: all .3s ease-in-out;

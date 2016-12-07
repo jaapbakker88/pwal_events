@@ -156,7 +156,11 @@ header {
 #three {
 	color: $light-grey;
 	background-color: #232323;
-	padding: 4em;
+	padding: 2em;
+	
+	h2 {
+		margin: 2em;
+	}
 
 	.card {
 		min-height: 250px;
@@ -165,11 +169,8 @@ header {
 		min-height: 250px;
 		border-radius: 5px;
 		}
-
-		h2 {
-			margin: 2em;
-		}
 	}
+
 }
 
 .hover-zoom {
