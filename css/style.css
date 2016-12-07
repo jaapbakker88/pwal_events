@@ -4629,13 +4629,13 @@ footer {
   .press .item {
     padding: 0; }
 
-  #three {
-    padding: 0; }
-    #three .card {
-      min-height: 150px;
-      margin-top: 20px;
-      border-radius: 5px;
-      position: relative; } }
+  #three h2 {
+    margin: 0.5em; }
+  #three .card {
+    min-height: 150px;
+    margin-top: 20px;
+    border-radius: 5px;
+    position: relative; } }
 @media (max-width: 780px) {
   #two .container-fluid {
     height: 40vh; } }

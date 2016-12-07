@@ -235,7 +235,9 @@ footer {
 	}  
 
 	#three {
-		padding: 0;
+			h2 {
+				margin: 0.5em;
+			}
 			.card {
 			min-height: 150px;
 			margin-top: 20px;
